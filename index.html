@@ -8,42 +8,50 @@
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/onepage-scroll.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- CSS файл плагина fullpage -->
+    <link href="css/jquery.fullPage.css" type="text/css" rel="stylesheet">
 
-    <script src="js/jquery.onepage-scroll.js"></script>
-    <script src="js/main.js"></script>
+    <!-- Библиотека jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script src="libs/jquery.easings.min.js"></script>
+    <script src="libs/scrolloverflow.min.js"></script>
+    <script src="libs/jquery.fullPage.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.maincontent').fullpage();
+        });
+    </script>
 </head>
 <body>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.js"></script>
 
 <div class="wrapper">
     <div class="maincontent">
 
-        <section class="page section-1">
+        <section class="section section-1">
             <h1>First section</h1>
         </section>
 
-        <section class="page section-2">
+        <section class="section section-2">
             <h1>Second section</h1>
         </section>
 
-        <section class="page section-3">
+        <section class="section section-3">
             <h1>Third section</h1>
         </section>
 
-        <section class="page section-4">
+        <section class="section section-4">
             <h1>Fourth section</h1>
         </section>
 
-        <section class="page section-5">
+        <section class="section section-5">
             <h1>Fifth section</h1>
         </section>
 
-        <section class="page section-6">
+        <section class="section section-6">
             <h1>Sixth section</h1>
         </section>
     </div>
