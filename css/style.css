@@ -1,41 +1,73 @@
-html,
-body {
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    width: 100%;
+.center {
+    text-align: center;
+    padding-bottom: 10px;
 }
-h1 {
-    margin: 0;
-}
-.wrapper {
-    height: 100%;
-}
-.maincontent {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-.section {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
+
 .section-1 {
-    background-color: #2b669a;
+
 }
+
 .section-2 {
-    background-color: #2b542c;
+
 }
+
 .section-3 {
-    background-color: yellowgreen;
+    background-color: #C0B4AD;
 }
+.section-3-img {
+    width: 80px;
+    height: 80px;
+}
+.section-3-text {
+    text-align: center;
+}
+
 .section-4 {
-    background-color: lightpink;
+
 }
+
 .section-5 {
-    background-color: violet;
+
 }
+
 .section-6 {
-    background-color: gray;
+
+}
+
+/*Меню*/
+.brand {
+    color: white;
+}
+.brand:hover {
+    color: white;
+    background-color: #FF8000;
+}
+.brand:focus {
+    color: white;
+    background-color: #FF8000;
+}
+
+.navbar-toggle > span {
+    background-color: white;
+}
+
+.navbar {
+    min-height: 40px;
+}
+
+.top-navbar {
+    background-color: #000000;
+    opacity: 0.80;
+}
+
+.nav > li > a {
+    color: white;
+}
+
+.nav > li > a:hover {
+    background: #FF8000;
+}
+
+.nav > li > a:focus {
+    background: #FF8000;
 }
